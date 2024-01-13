@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(18, 17, 17, 1);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30px;
+}
+
+.menubtn{
+    display: none;
+}
+
+.menu ul{
+    display: flex;
+    gap: 30px;
+    font-size: 22px;
+}
+
+.menu li{
+    list-style-type: none;
+}
+
+.left h1{
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+#name {
+    background-color: black;
+}
+
+#name h1{
+    color: #fff;
+    font-size: 65px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+#name button{
+    width: 180px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #fff;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.service_and_about {
+    background-color: rgba(18, 17, 17, 1);
+}
+
+#service {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.card {
+    max-width: 400px;
+    background-color: darkblue;
+    color: #fff;
+    padding: 40px 25px;
+}
+
+.card h1{
+    font-size: 30px;
+}
+
+.card h2{
+    font-size: 30px;
+    padding: 30px 0;
+}
+
+.card p{
+    font-size: 20px;
+    text-align: end;
+    padding: 20px 0;
+}
+
+.card button{
+    border: 0;
+    border-radius: 5px;
+    width: 140px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 60px 10px 0px 200px;
+}
+
+.two {
+    background-color: rgba(0, 0, 255, 0.760);
+}
+
+.four {
+    background-color: rgba(0, 0, 255, 0.760);
+}
+
+.six {
+    background-color: rgba(0, 0, 255, 0.760);
+}
+
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 60px auto;
+}
+
+.text {
+    color: #fff;
+    padding: 20px 0;
+}
+
+.text h1{
+    font-size: 42px;
+}
+
+.text p{
+    font-size: 18px;
+    padding: 36px 0;
+}
+
+.text button{
+    border: 0;
+    border-radius: 5px;
+    width: 140px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.icons {
+    color: #fff;
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+.nomber {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.block h1{
+    color: rgba(34, 139, 34, 0.69);
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.block p{
+    font-size: 26px;
+}
+
+.block {
+    border: 0;
+    border-right: 1px solid silver;
+    padding-right: 60px;
+}
+
+.nb {
+    border: 0;
+}
+
+#clients {
+    background-color: rgba(18, 17, 17, 1);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients h1{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: rgba(18, 17, 17, 1);
+    padding-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    border: 0;
+    border-bottom: 2px solid silver;
+    padding-bottom: 20px;
+}
+
+.footer_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer_card li{
+    list-style: none;
+}
+
+.footer_card i, a, h1{
+   color: #fff;
+   font-size: 22px;
+   padding: 10px 10px;
+   text-decoration: none;
+   font-weight: 300;
+}
+
+.footer_block i{
+     font-size: 22px;
+     padding: 10px 10px;
+}
+
+.footer_block h2{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 5px 10px;
+}
+
+.footer_block{
+    border: 0;
+    border-right: 2px solid silver;
+    padding-right: 120px;
+}
+
+.ftrb {
+    border: 0;
+}
+
